@@ -7,7 +7,11 @@ import prompt from "prompt-sync";
 const readLine = prompt({ sigint: true });
 
 function runExerciseOne() {
-  console.log("Write your own code for this method.");
+  const firstName = "Sebastian";
+  const lastName = "Vallin";
+  console.log(
+    `Hello ${firstName} ${lastName}! I'm glad to inform you that you are the test subject for my first assignment!`
+  );
 }
 
 function runExerciseTwo() {}
@@ -27,6 +31,8 @@ function runExerciseEight() {}
 function runExerciseNine() {}
 
 function runExerciseTen() {}
+
+function runExerciseEleven() {}
 
 /* ^^^^^^^^^^^^  Add the rest of the exercise functions above this line ^^^^^^^^^^^^ */
 
@@ -68,6 +74,9 @@ while (keepAlive) {
         break;
       case 10:
         runExerciseTen();
+        break;
+      case 11:
+        runExerciseEleven();
         break;
 
       /* ^^^^^^^^^^^^  Add the rest of the exercises above this line ^^^^^^^^^^^^ */

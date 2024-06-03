@@ -12,7 +12,9 @@
       "program": "${workspaceFolder}\\src\\index.ts",
       "outFiles": ["${workspaceFolder}/out/**/*.js"],
       "console": "externalTerminal",
-      "preLaunchTask": "tsc: build - tsconfig.json"
+      "preLaunchTask": "tsc: build - tsconfig.json",
+
+      "runtimeExecutable": "C:\\Users\\sebastian.vallin\\AppData\\Roaming\\fnm\\aliases\\default\\node.exe"
     }
   ]
 }
